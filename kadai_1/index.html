@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title></title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+</head>
+<body>
+    <a-scene id=“scene” background=“color: #000000”>
+        <a-sky src="1niu1cmc-a-close-up-of-a-water-fountain.jpeg">
+        </a-sky>
+        <a-scene embedded arjs="debugUIEnabled:false; sourceType: webcam;">
+          <a-text
+            value="こらまつり！"
+            font="custom-msdf.json"
+            font-image="custom-msdf.png"
+            negate="false"
+            scale="2 2 1"
+            position="0 1 -4"
+            color="red">
+          </a-text>
+          <a-box position="-1 0.5 -3" rotation="0 45 0" color="#0000ff" shadow></a-box>
+          <a-box position="-1 0.5 -3" rotation="0 45 0" color="#dc143c"></a-box>
+          <a-sphere position="0 1.25 -5" radius="1.25" color="#008080"></a-sphere>
+          <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+          <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+          <a-sound src="src: url(click.mp3)" autoplay="true" position="0 2 5"></a-sound>
+          <a-image src="tex3d.jpg" width="15" height="15" position="-20 0 -20" rotation="0 55 0"></a-image>
+          <img id="tile" src="yukari.png">
+          <a-scene fog="type: linear; color: #000; far: 25; near: 0">
+          <a-image src="#tile" rotation="90 0 0" scale="50 50 50" position="0 0 0"></a-image>
+    </a-scene>
+</body>
+</html>
