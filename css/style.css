@@ -376,3 +376,16 @@ sm {
   font-weight: 600;
   margin: 15px 0;
 }
+
+.youtube2 {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+.youtube2 iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
