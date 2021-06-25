@@ -12,7 +12,6 @@ Webtest
 │   ├── W7OBABTR1MB8VYAKCBHXMRDQ4BAUSXNJ_0\ (1).jpg
 │   ├── W7OBABTR1MB8VYAKCBHXMRDQ4BAUSXNJ_0.jpg
 │   ├── image0.jpg
-│   └── �\202��\202��\202��\203\204.jpg
 ├── metadata.csv
 ├── metadata_rgb.csv
 ├── poetry.lock
